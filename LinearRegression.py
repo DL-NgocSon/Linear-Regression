@@ -24,7 +24,7 @@ x_0 = np.linspace(145, 185, 2)
 y_0 = w_0 + w_1*x_0
 
 plt.plot(X.T, y.T, 'ro')     # data 
-plt.plot(x0, y0)               # the fitting line
+plt.plot(x_0, y_0)               # the fitting line
 plt.axis([140, 190, 45, 75])
 plt.xlabel('Height (cm)')
 plt.ylabel('Weight (kg)')
